@@ -1,11 +1,11 @@
-My blog.
+My blog. The src for <http://lbrandy.com>
 
 With help from:
 
-# homemade janktown conversion from wordpress
-# Jekyll + Jekyllbootstrap
-# midnight theme
-# github 
+* homemade janktown conversion from wordpress
+* Jekyll + Jekyllbootstrap
+* midnight theme
+* github 
 
 ## License
 
