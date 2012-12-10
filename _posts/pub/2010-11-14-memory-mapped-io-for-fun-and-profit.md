@@ -11,6 +11,7 @@ layout: post
 What I am going to describe below is a fairly straightforward application of memory mapped IO to get huge benefits versus normal IO when loading static, but large, data structures. <a href="https://github.com/lbrandy/blog_examples/blob/master/mmap/zerocopy.c">You can find the code for it here (note: linux only, though it would be an easy windows port).</a> For our face recognition SDK, our model files are large binary files that are full of various bits of (odd-sized) data. We recently flattened everything out and made our initialization, effectively, zero-copy. This is a write-up of that process on a contrived example to make it a bit simpler. If you've ever used mmap to persist a large static data structure, you'll probably find nothing of value here, but for the rest, read on.
 
 For this example, consider a very large list of strings (and their lengths) that we need to persist to disk. Or, a very large array of these:
+
 <pre>
 typedef struct {
   char *data;
