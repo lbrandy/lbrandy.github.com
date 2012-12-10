@@ -1,58 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+{% assign name asset_path_prefix = "/assets/themes/midnight/" %}
+
+<!doctype html>
+<html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }} by {{ site.author.name }}</title>
+    <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/styles.css">
+    <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="{{asset_path_prefix}}javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-
-    <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
   </head>
-
   <body>
+      <div id="header">
+        <nav>
+          <li class="downloads"><a href="/atom.xml">feed</a></li>
+          <li class="downloads"><a href="/about.html">about</a></li>
+          <li class="downloads"><a href="/archive.html">archive</a></li>
+          <li class="downloads"><a href="/">home</a></li>
+          <li class="title">oh the places you'll go</li>
+        </nav>
+      </div><!-- end header -->
 
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
-        </div>
-      </div>
-    </div>
+    <div class="wrapper">
 
-    <div class="container">
+      <section>
 
-      <div class="content">
         {{ content }}
-      </div>
 
-      <footer>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
+	<hr>
+          <span class="credits left">&copy; <a href="/about.html">louis brandy</a>
+	    &mdash; 
+	    theme: midnight by <a href="http://twitter.com/#!/michigangraham">mattgraham</a>
+	  &mdash;
+	  with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">jekyll bootstrap</a> and 
+	    <a href="http://github.com">github pages</a>
+	    </span>
+      </section>
 
-    </div> <!-- /container -->
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
 
     {% include JB/analytics %}
   </body>
