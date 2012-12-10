@@ -34,7 +34,7 @@ Which was faster 10x40 or 40x10? Turns out 10x40 was substantially faster than 4
 <h4>**Time to stop screwing around**</h4>
 I was about 2 hours into this little adventure when I realized there was absolutely no way I was going to meander to the right answer. This wasn't a simple problem. The only solution was my old friend science. Let's actually run the experiment and see what happens. I picked 16 different lengths ranging from 2 to 1000, and ran every permutation of block sizes and graphed the results. Here's what it looked like:  
 
-![cachegraph]({{paths.media}}/graph.png)
+![cachegraph](/assets/graph.png)
 
 This graph is just so cool. Let me explain what you are looking at. It's a 2d plot in a heat-graph format. The darker the color, the faster the code ran. The position in the grid represents the block size. As we travel right along the graph, we are increasing the longer dimension and as we travel upward along the graph, we are increasing the shorter dimension. The diagonal from bottom-left to top-right, then, is the square block sizes. The graph is also symmetric because of the rule I put in to ensure the longer dimension is always height (explained above).  This graph has three interesting features:
 <ol>

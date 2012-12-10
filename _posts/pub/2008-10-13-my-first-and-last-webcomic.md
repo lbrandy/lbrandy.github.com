@@ -10,7 +10,7 @@ layout: post
 ---
 In <a href="http://xkcd.com">xkcd</a> style...
 
-<img src="{{paths.media}}/jpg_vs_png2.png" title="this isn't xkcd. don't look for alt test.">
+<img src="/assets/jpg_vs_png2.png" title="this isn't xkcd. don't look for alt test.">
 
 JPEG isn't always right. If you are one of those people who just assumes JPEGs rule the world and make all images JPEG, please stop.  There is a time and a place where you have to put the JPEG encoder down. It's not a silver bullet.
 
