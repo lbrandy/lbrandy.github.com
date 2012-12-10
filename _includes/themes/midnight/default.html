@@ -8,6 +8,9 @@
     <title>{{ page.title }} by {{ site.author.name }}</title>
     <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/styles.css">
     <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/pygment_trac.css">
+    <link href="{{asset_path_prefix}}/prettify/prettify.css" type="text/css" rel="stylesheet" />
+    <link href="{{asset_path_prefix}}/prettify/sunburst.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="{{asset_path_prefix}}/prettify/prettify.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{asset_path_prefix}}javascripts/respond.js"></script>
     <!--[if lt IE 9]>
@@ -19,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
-  <body>
+  <body onload="$('pre').addClass('prettyprint'); prettyPrint();">
       <div id="header">
         <nav>
 	  <li class="fork"><a href="/"> lbrandy.com</a></li>
