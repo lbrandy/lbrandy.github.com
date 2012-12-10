@@ -1,0 +1,23 @@
+---
+title: "The universal performance optimization dislcaimer"
+date: '2012-01-07'
+description:
+categories:
+tags: []
+
+layout: post
+type: draft
+---
+I really like optimizing code. I find it terribly fascinating, fun, and rewarding. I'd like to write more about it, except I get kind of sick of seeing one particular and tired response. You can see one of them <a href="http://lbrandy.com/blog/2010/06/you-cant-beat-a-good-compile/#comment-26450">here</a>. Or another here.
+
+I'm writing this post as a preface to all the future optimization posts I might make.
+
+In any discussion about optimization, someone always feels the need to stop everyone and make some comment about the evils of premature optimization, or choosing better algorithms, or the right languages, etc, etc. Some even go so far as to say that all such optimization is useless, unnecessary and sometimes even harmful. These people have no idea what they are talking about. Like anything, there are domains where optimization (including micro-optimization) is a big deal. There are problem domains where incredibly fast, custom, non-standard, virtually unmaintainable, assembly-inspired black-magic is required. The very existence of such problem domains means that micro-optimizations are a necessary skill for some subset of programmers.
+
+This is really a problem about "assumed obviousness". When I write a simple post about optimization, I'm assuming quite a bit. I'm assuming you know that you should profile your code and only optimize the important bits, I'm assuming that you've chosen the best algorithms, I'm assuming the code must really truly need to be faster, and I'm assuming that it's still cost-effective for you to make this code less readable, less maintainable, and possibly less portable. If you read, for example, <a href="http://x264dev.multimedia.cx/">this blog</a>, you'll see the level of assumed obvious is even higher. You need to know a fair bit about not only video codecs, but low-level CPU architecture to fully understand what he's saying.
+
+I work in a world where all this advice is taken for granted. If you don't need to optimize something, don't. That seems so obvious to me. I don't feel the need to continuously restate it. It's also become increasingly clear to me that not everyone lives in such a world. At different levels of abstraction, obviously people have very different problems. It becomes obvious that for most people, performance improvements are largely unnecessary, and the people who do them are doing nothing but causing problems. I feel for those people who have to deal with those problems. That said, those aren't problems with premature optimizations as they are problems with crappy programmers.
+
+There's one other comment I'd like to make about the premature optimization maxim: it's not really true. Or rather, it's tautological, but the usual understanding of it is wrong. Obviously, any premature optimization is premature. However, many optimizations aren't premature. For example, you'll often see someone explain that they are doing something naively because they don't want to optimize prematurely. However, it becomes readily apparent that this design decision they've just made is not easily reversible. They are actually building their entire system around this decision. If they need to change it later, it will be tantamount to a huge rewrite. They'll probably justify that rewrite saying they didn't want to optimize "prematurely". Except it wasn't premature. The right time to make that decision was at the very beginning.
+
+Part of the skill in optimization is to realize what you need to do now, and what you can save for later. For performance critical systems, optimization-based decision start at the very beginning, before writing the first line of code. Design decisions throughout the entire process will be guided by optimization concerns. If you design the system right, you can do a completely naive implementation of your inner loops because they'll be small, coherent things that you can tackle later. They won't require a fundamental change to a core data structure, or external information that isn't available yet. In this view, at the top level, you are figuring out the black boxes, and which wires you'll need to connect to them to do the work quickly. The internals can be slow, for now, but you need to make sure to think through all the wires between them. And if you chose poorly, you'll end up needing to rip everything apart to fix it, later.
