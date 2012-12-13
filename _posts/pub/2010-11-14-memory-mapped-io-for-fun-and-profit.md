@@ -12,12 +12,12 @@ What I am going to describe below is a fairly straightforward application of mem
 
 For this example, consider a very large list of strings (and their lengths) that we need to persist to disk. Or, a very large array of these:
 
-<pre>
+````
 typedef struct {
   char *data;
   int len;
 } data_t;
-</pre>
+````
 
 To make the problem non-trivial, we will consider the case of different length strings (in my tests I was using a million strings around 150 bytes in length -- plus or minus a few to keep them from all being the same size).
 <h3>Let's get started</h3>
