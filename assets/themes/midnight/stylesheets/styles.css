@@ -540,7 +540,7 @@ table {
 body {
   padding: 0px 0 20px 0px;
   margin: 0px;
-  font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 15px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
   background: #252525;
@@ -613,7 +613,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 650px;
+  max-width: 850px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -630,7 +630,7 @@ blockquote {
   font-style: italic;
 }
 
-code {
+:not(pre)>code {
   font-family: "Lucida Sans", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
   color: #efefef;
   font-size: 13px;
@@ -657,12 +657,6 @@ pre {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
   overflow: auto;
   overflow-y: hidden;
-}
-pre code {
-  color: #efefef;
-  text-shadow: 0px 1px 0px #000;
-  margin: 0;
-  padding: 0;
 }
 
 table {
@@ -713,7 +707,7 @@ dt {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 #header nav {
-  max-width: 650px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 0 10px;
   margin: 6px auto;
@@ -779,7 +773,7 @@ dt {
 }
 
 section {
-  max-width: 650px;
+  max-width: 850px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
