@@ -643,6 +643,15 @@ blockquote {
   -o-border-radius: 2px;
 }
 
+a>code {
+  color: #ffcc00;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover>code {
+  color: #ffeb9b;
+}
+
 pre {
   padding: 8px 15px;
   background: #191919;
