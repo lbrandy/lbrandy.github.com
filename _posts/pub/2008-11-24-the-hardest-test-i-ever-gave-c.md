@@ -1,5 +1,5 @@
 ---
-title: "The Hardest Test I Ever Gave (C++)"
+title: "The Worst Test I Ever Gave (C++)"
 date: '2008-11-24'
 description:
 categories:
@@ -10,9 +10,13 @@ layout: post
 ---
 So while attending the University of Florida, I was a TA for a variety of classes. One summer in particular I took on an extra job of teaching an intro to programming course for incoming engineering freshman. The course wasn't for credit so it let me be a little, shall we say, creative. Since the class was taught in a computer lab, the course was really me giving a tiny lesson and them then doing some assignment in class. I wanted them to have left the course having written many successful programs that solved simple problems.
 
-But I also had to give a test. Ok, then. I sat down and made up a test. I had no intention of using the test in their "grades" (again, not for credit), so I wasn't worried too much about the difficulty. I should have been. It turned out way too hard. The test had the unintended side effect of causing the high-school-programmed kids to have a collective aneurysm (you see because 90% and above is an A, and so they were obviously failing, hard).
+But I also had to give a test. 
 
-I was able to find the old course website. I've chosen some of the more entertaining questions so you can try it yourself...
+Ok, then. I sat down and made up a test. I had no intention of using the test in their "grades" (again, not for credit), so I wasn't worried too much about the difficulty. I should have been. It turned out way too hard. The test had the unintended side effect of causing the high-school-programmed kids to have a collective aneurysm (you see because 90% and above is an A, and so they were obviously failing, hard).
+
+It was an unequivocal failure on my part, in every regard.
+
+I was able to find the old course website. I've chosen some of the more, shall we say, entertaining questions so you can try it yourself...
 <h3>Question #1 -- Syntax</h3>
 
 <pre>
@@ -27,7 +31,8 @@ I was able to find the old course website. I've chosen some of the more entertai
 1e) x = (x++ == 3 + x % (x=x=3));
 </pre>
 
-Not on the original test, but for bonus points, if x is 1 before 1e, what is x after that line?
+Yea.. so... syntax quizzes...
+
 <h3>Question #2 -- Evaluating Expressions</h3>
 
 <pre>
@@ -41,7 +46,8 @@ Not on the original test, but for bonus points, if x is 1 before 1e, what is x a
    2e.	(34 &gt; 19)	_____
 </pre>
 
-This should be straightforward. Except for 2d. That is just plain mean.
+This should be straightforward. Except for 2d. WTF. Sigh.
+
 <h3>Question #5 -- Why? Seriously, why?</h3>
 
 <pre>
@@ -67,14 +73,17 @@ if (x != z)
 Output: ___________________________________________
 </pre>
 
-This problem screams "trick-question" but to no avail. Every single one of them got this wrong. Every. Single. One. That is quite frankly amazing considering it's essentially a 50-50 guess and I had about 30 students. I'll go ahead and put this challenge out. Try to come up with a 50-50 question that every single student in your class gets wrong.
+This problem screams "trick-question" but to no avail. Every single one of them got this wrong. Every. Single. One. 
+
+If you give a 50-50 question that everyone gets wrong, you are an utter failure as a teacher, right? I'll go ahead and put this challenge out. Try to come up with a 50-50 question that every single student in your class gets wrong.
+
 <h3>Bonus Question #1 -- Words do not describe...</h3>
 
 <pre>
 B1) What is the _EXACT_ output of the following code:
 *2 points*
 
-void main(int)
+void f()
 {
 int counter1, counter2, j, k;
 
