@@ -8,6 +8,9 @@ tags: []
 layout: post
 
 ---
+
+**note: I've reworded parts of this post since it's been posted more than once since 2008 and I want to make my ideas more clear.**
+
 So while attending the University of Florida, I was a TA for a variety of classes. One summer in particular I took on an extra job of teaching an intro to programming course for incoming engineering freshman. The course wasn't for credit so it let me be a little, shall we say, creative. Since the class was taught in a computer lab, the course was really me giving a tiny lesson and them then doing some assignment in class. I wanted them to have left the course having written many successful programs that solved simple problems.
 
 But I also had to give a test. 
