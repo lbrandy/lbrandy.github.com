@@ -8,9 +8,8 @@ tags: []
 layout: post
 
 ---
-<div class="asset-body">
 
-<strong>Yet Another Blog</strong>
+### Yet Another Blog
 
 Yea. I'm starting a blog. The people I know, including myself, have always considered blogging a rather disdainful art. There are so many reasons not to write a blog (they are unimportant, narcissistic, etc.). My primary complaint is that most of them end up being completely asinine. Even the best ones tread into the asinine frequently. The urge to give an example is <em><strong>almost</strong></em> completely irresistible.
 
@@ -18,7 +17,7 @@ Most of the primary excuses have <a href="http://steve.yegge.googlepages.com/you
 
 Most people would say that the primary reason you'd start a blog is because you have something to say. I admit... this seems like a necessary precursor. I disagree, though, that this is the primary reason you'd want to start one. Are there really people with nothing to say? I think the excuse that "I have nothing to say" should often be silently translated into "I don't realize how much I have to say". Sometimes, though, <a href="http://xkcd.com/137/">"I'm scared to say anything"</a> is the real culprit.
 
-<strong>So Why Have I Decided to Start Writing?</strong>
+### So Why Have I Decided to Start Writing?
 
 First, and foremost, blogs can be (but rarely are)<strong>useful</strong>. Often times people encounter problems that other people have encountered before. You can much more easily add to a community of problem solvers and also benefit by drawing others with similar circumstances into a conversation about solutions. Blogs can be <em>terribly</em> useful and I hope to make mine so for both me and any potential reader.
 
@@ -30,10 +29,10 @@ Part of building a blog network is continuing the discussion started by others. 
 
 So my three goals: usefulness, "interestingness", and dialogue. Entertaining would be an excellent fourth goal, but let's not get greedy. Hopefully it follows from the first three.
 
-<strong>Screaming into the Darkness</strong>
+### Screaming into the Darkness
 
-The hardest blog post to write is undoubtedly the first. What's really cool about writing your first blog post is that there's a virtual guarantee that <a href="http://www.markevanstech.com/2007/02/26/who-reads-blog-apparently-almost-no-one/">no one is going to read it</a>. Except my mom. Hi mom. And possibly a few of friends, for mockery purposes. Hello friends. It is, in a very real sense, like screaming into the darkness. It's somewhat of a bizarre feeling. This presents an interesting barrier to starting: it seems entirely pointless. You literally have to sit down at a computer and write something that is virtually guaranteed to not be read. And then you have to proofread it. Repeatedly.
+The hardest blog post to write is undoubtedly the first. What's really cool about writing your first blog post is that there's a virtual guarantee that <a href="http://www.markevanstech.com/2007/02/26/who-reads-blog-apparently-almost-no-one/">no one is going to read it</a>. Except my mom. Hi mom. And possibly a few of my friends, primarily for mockery purposes. Hello friends. It is, in a very real sense, like screaming into the darkness. It's somewhat of a bizarre feeling. This presents an interesting barrier to starting: it seems entirely pointless. You literally have to sit down at a computer and write something that is virtually guaranteed to not be read. And then you have to proofread it. Repeatedly.
 
 In the spirit of being useful, let me present to you the way I convinced myself to write the first post. No one can start reading until you start writing. It is a very real chicken and egg problem and the only solution is to, well, lay an egg. When they do start reading, they'll likely sift through the old archives to find other interesting things. I have absolutely no data to verify this conjecture but I suspect that first posts on popular blogs are among the most read. Given that perspective, the "first-post" problem of seems like a non-issue. It's not about the current readers, but the possible future ones.
 
-So, hello future reader. And Mom.</div>
+So, hello future reader. And Mom.
