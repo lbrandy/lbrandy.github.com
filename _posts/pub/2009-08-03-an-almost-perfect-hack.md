@@ -56,17 +56,21 @@ I walked into the courtroom with about 100 pages of documentation in a nifty lea
 
 In the room sat two lawyers (my opponents) and the guy in charge (I presume he was a judge). It wasn't in a court room but an office adjacent to the court room. This is basically what happened:
 
-<blockquote>**Judge:** What's your name?
+<blockquote>
 
-**Me: **Louis Brandy.
+<b>Judge:</b> What's your name?<br><br>
 
-<em>The judge and opponent lawyers shuffled a lot of papers around. The two lawyers looked at the their papers for awhile. </em>
+<b>Me:</b> Louis Brandy.<br><br>
 
-**Judge, to lawyers: **Alright, what are we doing?
+<em>The judge and opponent lawyers shuffled a lot of papers around. The two lawyers looked at the their papers for awhile. </em><br><br>
 
-**Lawyer:** This appeal was been going on for 2 years, with the previous owners. They (me+my wife) are the new owners. They bought it for $15,000 less than the previous owners. That puts their house into agreement with our numbers. There's no need to change this assessment. We will withdraw the appeal.
+<b>Judge, to lawyers:</b> Alright, what are we doing?<br><br>
 
-**Judge, to me**: You can go forward, if you want, and I'll decide what to do with the assessment -- up or down. They are willing to withdraw the appeal, is that ok with you?</blockquote>
+<b>Lawyer:</b> This appeal was been going on for 2 years, with the previous owners. They (me+my wife) are the new owners. They bought it for $15,000 less than the previous owners. That puts their house into agreement with our numbers. There's no need to change this assessment. We will withdraw the appeal.<br><br>
+
+<b>Judge, to me</b>: You can go forward, if you want, and I'll decide what to do with the assessment -- up or down. They are willing to withdraw the appeal, is that ok with you?<br>
+</blockquote>
+
 
 Ah, crap. I had a decision to make. Should I push forward and risk being embarrassed? What if I printed up the wrong numbers? What if my comparables were garbage? What if they had equal comparables to keep my price at the same level? Accepting the the draw was the obvious choice. My only hesitation was that it would ruin my story.
 

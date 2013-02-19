@@ -10,7 +10,7 @@ layout: post
 ---
 It happens from time to time. You write some non-trivial code that is difficult to decompose into bite sized problems. And when it finally comes time to run it, it works. Perfectly. This is almost immediately accompanied by two feelings: 1) elation and 2) panic that something must be wrong. Do we trust this code? What do we do next?
 
-Now, there's probably some subset of readers already gnashing their teeth: the test driven developers. If you are writing all your tests first, and watching them go from failure to passing, certainly this problem won't happen. But it will. I assure you. There are bits of code that are quite complicated and extremely difficult to test until large amounts of it are in place. When you see many difficult tests go from fail to pass on the first try, the same panic strikes (although it's usually more of the "did I write good tests?" variety).
+Now, there's probably some subset of readers already gnashing their teeth. "But the tests" they might cry, "if you wrote all the tests first, you could actually trust it worked!". But let's be honest, shall we? Even if you did write all the tests first, and your code passed them all on the first try, you still get the panic. Did I write good tests? Did they even run? 
 
 Here's some of my examples from recent memory:
 

@@ -11,10 +11,12 @@ layout: post
 This is a post I've been kicking around for awhile and I've finally felt compelled to finish it. It seems to be a popular geeky topic for idle conversation and blog posts of all variety to come up with new and exciting ways to replace CAPTCHAs. I've had one too many IM conversations about "new captcha" ideas. <a href="http://news.ycombinator.com/item?id=883480">This week, someone's "next-gen" CAPTCHA idea was posted on Hacker News and promptly "broken" within hours</a>. I don't think it's necessarily a bad thing, by the way, to post your CAPTCHA idea online and have it get destroyed. The only way to succeed on something like this is to fail. Often.
 
 In truth, almost all of the ideas floated on the internets (and for some reason they always seem to revolve around human understanding of images) are fundamentally flawed in at least one respect the author didn't fully consider. So while I do not have my own next-gen idea, I have thought quite a bit about the requirements it should meet, and consequently I've seen how few other ideas actually meet those requirements.
-<h3>Questions you need to answer about your CAPTCHA idea</h3>
-1. **Is it trivial for a human to answer correctly? <span style="font-weight: normal;">This might seem obvious, but in the process of optimizing your captcha idea for every other factor, this is often the one that suffers. If it is at all difficult to "do" your captcha, it will be <a href="http://www.google.com/search?q=hard+captcha">universally reviled</a>.</span>**
 
-2. **Can humans do it quickly? <span style="font-weight: normal;">This, again, speaks to usability. Humans want to be in and out extremely quickly. Every second a person takes doing the CAPTCHA translates into lost users, sign-ups, etc.</span>**
+<h3>Questions you need to answer about your CAPTCHA idea</h3>
+
+1. **Is it trivial for a human to answer correctly?** This might seem obvious, but in the process of optimizing your captcha idea for every other factor, this is often the one that suffers. If it is at all difficult to "do" your captcha, it will be <a href="http://www.google.com/search?q=hard+captcha">universally reviled</a>.
+
+2. **Can humans do it quickly?** This, again, speaks to usability. Humans want to be in and out extremely quickly. Every second a person takes doing the CAPTCHA translates into lost users, sign-ups, etc.
 
 3. **How is the random guess-rate?** It better be abysmal.
 
@@ -38,7 +40,9 @@ For this particular idea (which is already in a bit of trouble) there's another 
 Option 1 has a major inherent problem. If you can sit down and label 1000 images, so can the attacker. You must assume, then, that the attacker will eventually get a full library of the base images you are using. His primary goal is to figure out which of the base library images is most likely for each input image. This means you are going to need to artifically "distort" images in such a way that the attacker cannot reverse engineer it while still preserving the human's ability to recognize and orient them. This is much more difficult than you might first suspect.
 
 Option 2 has an altogether different set of problems. The first question you must ask is what percentage of internet images are orientable by humans to the precision necessary? From there, what percentage of your CAPTCHAs will consequently be impossible? Remember, you only need one impossible image for the entire CAPTCHA to be impossible, and so as you add more images to the query, the chance of the CAPTCHA becoming impossible skyrockets. You must deal with this "bad" data while maintaining an extremely low frustration quotient.
-<h4>A word on "image-based" captchas</h4>
+
+## A word on "image-based" captchas
+
 If you don't know much about image processing or computer vision, you probably shouldn't be devising image-based CAPTCHAs. I am by no means an expert on either but your average computer vision 101 course will teach you enough to defeat half the ad-hoc CAPTCHA ideas you see proposed around the internet. There are, of course, ways that human understanding of images can be exploited but to understand what they are, you really need to know what is and isn't possible.
 
 The example submitted to Hacker News last week was an example where the CAPTCHA consists of a set of images broken into strips and the user is required to reassemble a single image. This (and virtually all variants of this) is an absolutely trivial problem for a computer solve. Within hours, someone had posted a working solution. Since the strips were of constant size, the "attacker" in this case simply compared the two adjacent lines of pixels of the two strips to determine which pair of images were most likely the same. The designer could have easily randomized the border between the two images to defeat this naive attack, but he would almost certainly have lost the war. Figuring out if image segments are from the same image (especially if they should be adjacent) is not a difficult problem.

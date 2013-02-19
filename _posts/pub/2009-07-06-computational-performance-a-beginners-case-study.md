@@ -40,14 +40,17 @@ It's not even close, really. Without any compiler optimizations, the horizontal 
 
 So now that we know which is faster, the question moves to why.
 <h3>Hypothesis 1: <a href="http://stackoverflow.com/questions/997212/fastest-way-to-loop-through-a-2d-array/997273#997273">The stack-overflow hypothesis.</a> Are we CPU bound?</h3>
+
 Let me quote the "chosen" stack overflow answer:
-<blockquote>So if you're scanning vertically, the next index is calculated as:
+
+<blockquote>>So if you're scanning vertically, the next index is calculated as:
 <pre class="prettyprint"><code><span class="pln">index </span><span class="pun">=</span><span class="pln"> row </span><span class="pun">*</span><span class="pln"> numColumns </span><span class="pun">+</span><span class="pln"> col</span><span class="pun">;</span><span class="pln">
 </span></code></pre>
 however, if you're scanning horizontally then the next index is just as follows:
 <pre class="prettyprint"><code><span class="pln">index </span><span class="pun">=</span><span class="pln"> index</span><span class="pun">++;</span><span class="pln">
 </span></code></pre>
 <strong>A single addition is going to be fewer op codes for the CPU then a multiplication AND addition</strong>, and thus horizontal scanning is faster because of the architecture of computer memory.</blockquote>
+<br>
 Now, let's remember that the horizontal version is between 15 and 30 times faster depending on our compiler optimization settings. Immediately, you should be highly skeptical of this answer. How could a single instruction, or two, make such a staggering difference? This is a fairly easy to test hypothesis, as well. If we look at the inner loop assembly of the unoptimized version of the code, we see the follow code snippets.
 <table border="0">
 <tbody>
@@ -116,7 +119,7 @@ When you access a memory address, the computer loads it into cache, along with i
 
 **Vertical.** You will load up the first element, like before, and get the 15 elements to his right "for free". You promptly ignore those 15 elements, and proceed to jump down to the next row (say, 4096 elements away, if that is the width of the row). You will then load up the second element of the first column, including his cache line (the 15 elements to his right), compute only him, and proceed to the third element. And so on.
 
-In the horizontal case, you load up all 16 elements and use them. In the vertical case, you are loading up 16 elements to compute only one of them.  On average, each element is loaded ONCE in the horizontal case, and each element is loaded 16 times in the vertical case (computed once, ignored 15x). T<strong>his means you are doing 16x as many memory to cache loads in the vertical case.</strong>
+In the horizontal case, you load up all 16 elements and use them. In the vertical case, you are loading up 16 elements to compute only one of them.  On average, each element is loaded ONCE in the horizontal case, and each element is loaded 16 times in the vertical case (computed once, ignored 15x). <strong>This means you are doing 16x as many memory to cache loads in the vertical case.</strong>
 
 This hypothesis is immediately appealing because 16x is on the same order of magnitude of the timing differences we've seen.<strong> It also explains why compiler optimizations don't help the vertical.</strong> If we are entirely cache bound, removing unnecessary instructions isn't going to help.
 

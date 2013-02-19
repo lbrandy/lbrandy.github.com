@@ -18,6 +18,7 @@ If you use your computer as much as I do, there is no doubt that you've run into
 
 <a href="http://www.flickr.com/photos/kjarrett/3283758911/">source</a>
 
+
 It looks just like a windows XP machine running explorer with some purported virus scanning going in the background. You can even drag the little pop-up window around and it behaves quite "natively" (until you reach the edge of the browser, of course). The first time I saw this bit of nastiness (even though I was running on my Mac) I was impressed. I am certain, however,  my less computer savvy family members would absolutely flip out if they ran into this. There's no doubt that countless people have installed whatever nasty payload awaits at the end of this charade.
 
 After a fair bit of research, I realized how much deeper and more spectacular this bit of blackhat hackery actually is. First of all, it would seem to be coming from a "crime syndicate" in Eastern Europe. That's good to know. More importantly, they appear to be <a href="http://pandalabs.pandasecurity.com/archive/Be-Careful-With-Your-Search-Results.aspx">google bombing major news stories</a> using "hot" topics from various news agencies (CNN, BBC, etc.).
