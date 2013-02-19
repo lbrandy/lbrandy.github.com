@@ -3,7 +3,7 @@
   <p>{{ page.tagline }}</p>
   <hr>
 
-<span class="credits right">Posted by <a href="/about.html">{{ site.author.name }}</a> on {{ page.date | date_to_long_string }}</span>
+<span class="credits right">Posted by <a href="/about.html">{{ site.author.name }}</a> on {{ page.date | date: "%d %B %Y" }}</span>
   
 </div>
 
