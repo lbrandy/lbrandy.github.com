@@ -18,4 +18,4 @@ But not everything was made up. I know Paul's full name. I know his (former?) ad
 
 About a month ago, all of this changed. I started receiving calls from probate and estate "people" (they thought of themselves as legal professionals, but to me there were more like debt collectors for dead people). You see, apparently Paul had died. And apparently the probate people don't quite have the same set of rules that the debt collector people have because they told me quite a bit more about Paul.
 
-Paul had a shitty life, it appears. It is, of course, hard to tell given that my only information about Paul is through debt collectors. Maybe Paul faked his own death to get away from all of these assholes. He is, hopefully, living on a boat on the keys. If not, rest in peace, man.
+Paul had a shitty life, it appears. It is, of course, hard to tell given that my only information about Paul is through debt collectors. Maybe Paul faked his own death to get away from all of these assholes. He is, hopefully, living on a boat in the keys. If not, rest in peace, man.

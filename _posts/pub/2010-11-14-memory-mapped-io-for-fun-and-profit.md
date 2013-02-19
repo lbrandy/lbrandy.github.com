@@ -161,7 +161,7 @@ naive_read time: 0.373289
 0copy_read time: 0.011233
 </pre>
 
-It's important to understand what we are actually measuring here. I ran this test on Linux (Windows isn't much different) which has a file cache. The actual disk wasn't ever really involved in this program or these timings. We are really testing the summed speed of our processing, malloc() (in the first case), fread(), and the kernel's handling of cached files. (note: if you modified this program to only read the files, and then reboot your machine to clear the file-cache, the first run would be much slower as the file was read in from disk and cached).
+It's important to understand what we are actually measuring here. I ran this test on Linux (Windows isn't much different) which has a file cache. The actual disk wasn't ever really involved in this program or these timings. We are really testing the summed speed of our processing, malloc() (in the first case), fread(), and the kernel's handling of cached files. (note: if you modified this program to only read the files, and then clear the file-cache, the first run would be much slower as the file was read in from disk and cached).
 
 <h3>Benefits</h3>
 

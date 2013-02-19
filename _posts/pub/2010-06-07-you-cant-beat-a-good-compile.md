@@ -16,9 +16,10 @@ Optimization, today, is largely about writing some naive code, looking at the as
 
 As an aside, I have a question: how exactly does one go about learning how to go beyond standard C into hardcore optimization? For me, it's been a long road of trial &amp; error, and random discovery. It seems to me that there is probably good resources out there for getting started on optimizing code (let's say in gcc). Know any?
 
-<em>All the code I used can be found here: <a href="https://github.com/lbrandy/blog_examples">http://github.com/lbrandy/simple-optimization-test (see signal_blur.c)</a>. I ran all of these tests on Linux using gcc 4.3.3 and -O3. UPDATED: I changed the code to use c99's <code>restrict</code> keyword, instead of gcc's <code>__restrict__</code></em>
+All the code I used can be found here: <a href="https://github.com/lbrandy/blog_examples">http://github.com/lbrandy/simple-optimization-test (see signal_blur.c)</a>. I ran all of these tests on Linux using gcc 4.3.3 and -O3. UPDATED: I changed the code to use c99's <code>restrict</code> keyword, instead of gcc's <code>__restrict__</code>
 
-<h3>Getting yourself into trouble</h3>
+## Getting yourself into trouble
+
 Here is a naive (and contrived) one dimensional filter routine.
 
 <pre>
