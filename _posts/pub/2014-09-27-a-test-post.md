@@ -1,3 +1,12 @@
-== A title ===
+---
+title: "a test post"
+layout: post
+---
 
-playing with Github's online txt editor
+# A title #
+
+This is a test post. Playing with github. 
+
+```
+auto some_code = 11;
+```
