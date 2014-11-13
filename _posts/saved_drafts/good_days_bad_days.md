@@ -6,7 +6,7 @@ Asking this question to a roomful of all new hires has been a very enlightening 
 
 I often observe a fairly fundamental axiomatic difference that frequently drives these conversation straight off the cliff. 
 
-== Let me make some absurdly reductionist claims. ==
+## Let me make some absurdly reductionist claims. 
 
 In any given programming language (or technology), there are exactly two kinds of programmers: the **language expert** and the **language non-expert**. I'm using a fairly high bar for "expert" throughout this post. Just to be clear, non-experts are not just newbies, but even the rank and file professionals who don't bother to get very language lawyerly. Experts solve the hardest problems in a codebase. In the C++ world, you'll often hear the dog-whistle codeword "library writers" to refer to "experts". 
 
@@ -14,7 +14,7 @@ All programmers in a language, expert or not, have **good days** and **bad days*
 
 A **good day** is stronger than just writing bug free code. Your design is solid, your code is as idiomatic as it can be, utilizating everything the language provides, as well as being totally bug free. A **bad day** is, of course, when any of these things start to slip.
 
-== A 2x2 matrix ==
+## A 2x2 matrix
 
 So there are 4 situations where any of us might find ourselves in on a given day:
 
@@ -25,7 +25,7 @@ So there are 4 situations where any of us might find ourselves in on a given day
 
 Here's my central claim: **essentially all programming language arguments that go sideways do so because two people are talking about different sections of this matrix.**
 
-== Some examples == 
+## Some examples 
 
 **static vs dynamic typing**. This one is a bit more complicated than a paragraph can allow so let's see how I do. Many arguments in favor of dynamic typing sit squarely in the producitivity category (inexperienced programmers having good days) where huge amounts of business value can be created relatively easy. Most static typing arguments are talking about the other three squares. Namely, 1) on your bad days, the compiler can help alot more and 2) dynamic typing limits the best-possible-program in ways that are unacceptable. 
 
