@@ -23,7 +23,7 @@ So there are 4 situations where any of us might find ourselves in on a given day
 3. **Expert, and having a bad day**. You are writing the most important code in the project and you are screwing it up. Your either making a bad design that we'll spend months fixing later, or you're doing something and you should *clearly* know better. You're going to be mad at yourself later. In this zone, a programming language is going to be judged by it's entire tooling ecosystem, all of its ability to prevent bugs and make debugging easier, and all the tools it has to fix huge messes (refactoring, debuggers, etc.) When the language is running close to its limit, with all of its features coming together, how forgiving is it? How much can it protect us? 
 4. **Expert, and having a good day**. You are writing the most important piece of logic in a billion dollar program. It's critical that this code is perfect (for some definition, often involving speed, or correctnes, or both). Your design is right. No bugs, of course. You changed the course of an entire company today, maybe an industry. You go home by 5pm. In this zone, a programming language is essentially being judged at what's the best possible outcome. What is the limit on the types of programs this language can produce.
 
-Here's my central claim: **essentially all programming language arguments that go sideways do so because two people are talking about different sections of this matrix.**
+Here's my central claim: **essentially all programming language arguments that go sideways do so because two people are talking about (or, often, fundamentally valuing) different sections of this matrix.**
 
 ## Some examples 
 
