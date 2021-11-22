@@ -1,5 +1,5 @@
 ---
-title: "Never trust a programmer who says he knows C++"
+title: "Never trust a programmer who says they know C++"
 date: '2010-03-28'
 description:
 categories:
