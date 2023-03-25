@@ -11,9 +11,7 @@ type: draft
 
 # ok, another interview phone-screen. let's do this.
 
-_Hey ChatGPT, welcome to our interview. Today we're going to do a bit of coding. I'll leave time at the end for questions from me to you. Are you ready? Great._
-
-_Can you write me code to validate whether a list of binary tree nodes forms exactly one valid binary tree?_
+_Hey ChatGPT, welcome to our interview. Today we're going to do a bit of coding. I'll leave time at the end for questions from me to you. Are you ready? Great. Can you write me code to validate whether a list of binary tree nodes forms exactly one valid binary tree?_
 
 > Sure, here's an example code in Python to validate if a list of binary tree nodes forms exactly one valid tree:
 
@@ -63,9 +61,7 @@ def validate_tree(nodes):
 
 # follow-up question!
 
-_(okokokokok, I'm a smart human, so let's ask a followup question to catch any cheaters!)_
-
-_Ok so, then, ChatGPT, can you write me a unit test that tests the code you just wrote?_
+_(okokokokok, I'm a smart human, so let's ask a followup question to catch any cheaters!) So, then, ChatGPT, can you write me a unit test that tests the code you just wrote?_
 
 > Sure, here's an example unit test in Python using the built-in unittest module:
 
@@ -113,7 +109,7 @@ if __name__ == '__main__':
 
 # whoa (editor's comment)
 
-So, the above was presented without (much) comment. It represented a very simple question/response from me to chatgpt (using chat-gpt.com). The intention is to show what the very near future of a conventional "tech interview" might look like in our collectively brave new world.
+So, the above was presented without (much) comment. It represented a very simple question/response from me to chatgpt (using [chat-gpt.com](http://chat-gpt.com)). The intention is to show what the very near future of a conventional "tech interview" might look like in our collectively brave new world.
 
 The two questions asked were:
 
@@ -121,21 +117,21 @@ The two questions asked were:
 2. Can you write a unit test to test the code you just wrote?
 
 Actual pastebin of the interchange:
-https://pastebin.com/tYbuaJhE
-https://pastebin.com/dLv3ecjn
+* https://pastebin.com/tYbuaJhE
+* https://pastebin.com/dLv3ecjn
 
 
 # some commentary
 
-First, if you look closely at the code, or the test, it's not _great_, or ideal... but holy cow does it _look_ legit at a glance. I think careful inspection of the code will reveal problems and edge cases not properly handled, but... still... yikes.
+First, if you look closely at the code, or the test, it's not _great_, or ideal... but holy cow does it _look_ legit at a glance. I think careful inspection of the code will reveal problems and edge cases not properly handled, but... still... wow.
 
-Second, I'm genuinely alarmed by the seemingly plausible follow-up answer. It just looks shockingly good before I look into the details. In my own mind I somewhat expected ChatGPT to regurgitate a half-decent answer to a conventional "coding" question. I did _not_ expect it to produce even half-sensible answer to followup questions. 
+Second, I'm genuinely alarmed by the seemingly plausible follow-up answer. It just looks shockingly good before I examine the details. In my own mind I somewhat expected ChatGPT to regurgitate a half-decent answer to a conventional "coding" question. I did _not_ expect it to produce a half-sensible answer to followup questions. 
 
-Last, one of my long-held beliefs is that human interviewers for these kind of "coding" interviews _vastly_ overrate their ability to detect "preparedness", "cache hits" or, worse, cheaters. My guess is that many, many, many interviewers are fooled by people actively cheating or who have actively prepared an answer to their "known" leetcode question. Many interviewers, IMO mistakenly, believe that can suss out such things with their clever followups. I am not convinced. There's a much longer discussion to be had here about what this implies when we consider the value of coding interviews, overall. 
+Last, one of my long-held beliefs is that human interviewers for these kind of "coding" interviews _vastly_ overrate their ability to detect "preparedness", "cache hits" or, worse, cheaters. My guess is that many, many, many interviewers are fooled by people actively cheating or who have actively prepared an answer to their "known" leetcode question. Many interviewers, IMO mistakenly, believe that they can suss out such things with their clever followups. I am not convinced. There's a much longer discussion to be had here about what this implies when we consider the value of coding interviews, overall. 
 
 # epilogue
 
-I've not written here in a long, long, long time. In the interim, I spent ~10 years at Facebook and did hundreds of interviews (and have the t-shirt to prove it) and was part of the candidate review board that made final hire/no-hire decisions for I-don't-even-know-how-many written packets of conducted interview loops. I've since left FB at work at [Rockset](rockset.com) now, working on realtime analytics database.
+I've not written here in a long, long, long time. In the interim, I spent ~10 years at Facebook and did hundreds of interviews (and have the t-shirt to prove it) and was part of the candidate review board that made final hire/no-hire decisions for I-don't-even-know-how-many written packets of conducted interview loops. I've since left FB at work at [Rockset](http://www.rockset.com) now, working on realtime analytics database.
 
 I consider myself relatively well-calibrated on what a "big tech" interview might look like. And well-calibrated on how a "coding interview" looks when presented to someone downstream who is glancing at them to make final hire, no-hire decisions. 
 
