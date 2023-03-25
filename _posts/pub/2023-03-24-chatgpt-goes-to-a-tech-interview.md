@@ -11,7 +11,7 @@ type: draft
 
 # ok, another interview phone-screen. let's do this.
 
-_Hey ChatGPT, welcome to our interview. Today we're going to do a bit of coding. I'll leave time at the end for questions from me to you. Are you ready? Great. Can you write me code to validate whether a list of binary tree nodes forms exactly one valid binary tree?_
+_Hey ChatGPT, welcome to our interview. Today we're going to do a bit of coding. I'll leave time at the end for questions from you to me. Are you ready? Great. Can you write me code to validate whether a list of binary tree nodes forms exactly one valid binary tree?_
 
 > Sure, here's an example code in Python to validate if a list of binary tree nodes forms exactly one valid tree:
 
@@ -67,7 +67,6 @@ _(okokokokok, I'm a smart human, so let's ask a followup question to catch any c
 
 
 ```
-
 import unittest
  
 class TestValidateTree(unittest.TestCase):
