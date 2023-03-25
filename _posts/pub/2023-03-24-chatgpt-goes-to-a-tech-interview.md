@@ -128,11 +128,3 @@ First, if you look closely at the code, or the test, it's not _great_, or ideal.
 Second, I'm genuinely alarmed by the seemingly plausible follow-up answer. It just looks shockingly good before I examine the details. In my own mind I somewhat expected ChatGPT to regurgitate a half-decent answer to a conventional "coding" question. I did _not_ expect it to produce a half-sensible answer to followup questions. 
 
 Last, one of my long-held beliefs is that human interviewers for these kind of "coding" interviews _vastly_ overrate their ability to detect "preparedness", "cache hits" or, worse, cheaters. My guess is that many, many, many interviewers are fooled by people actively cheating or who have actively prepared an answer to their "known" leetcode question. Many interviewers, IMO mistakenly, believe that they can suss out such things with their clever followups. I am not convinced. There's a much longer discussion to be had here about what this implies when we consider the value of coding interviews, overall. 
-
-# epilogue
-
-I've not written here in a long, long, long time. In the interim, I spent ~10 years at Facebook and did hundreds of interviews (and have the t-shirt to prove it) and was part of the candidate review board that made final hire/no-hire decisions for I-don't-even-know-how-many written packets of conducted interview loops. I've since left FB and work at [Rockset](http://www.rockset.com) now, working on realtime analytics database.
-
-I consider myself relatively well-calibrated on what a "big tech" interview might look like. And well-calibrated on how a "coding interview" looks when presented to someone downstream who is glancing at them to make final hire, no-hire decisions. 
-
-I present the above simply so you can take my opinion for whatever you might think its worth. 
