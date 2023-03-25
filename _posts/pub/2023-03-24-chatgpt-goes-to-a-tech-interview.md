@@ -131,7 +131,7 @@ Last, one of my long-held beliefs is that human interviewers for these kind of "
 
 # epilogue
 
-I've not written here in a long, long, long time. In the interim, I spent ~10 years at Facebook and did hundreds of interviews (and have the t-shirt to prove it) and was part of the candidate review board that made final hire/no-hire decisions for I-don't-even-know-how-many written packets of conducted interview loops. I've since left FB at work at [Rockset](http://www.rockset.com) now, working on realtime analytics database.
+I've not written here in a long, long, long time. In the interim, I spent ~10 years at Facebook and did hundreds of interviews (and have the t-shirt to prove it) and was part of the candidate review board that made final hire/no-hire decisions for I-don't-even-know-how-many written packets of conducted interview loops. I've since left FB and work at [Rockset](http://www.rockset.com) now, working on realtime analytics database.
 
 I consider myself relatively well-calibrated on what a "big tech" interview might look like. And well-calibrated on how a "coding interview" looks when presented to someone downstream who is glancing at them to make final hire, no-hire decisions. 
 
