@@ -117,8 +117,8 @@ The two questions asked to ChatGPT were:
 
 Actual pastebin of the interchange:
 
-* [https://pastebin.com/tYbuaJhE](https://pastebin.com/tYbuaJhE)
-* [https://pastebin.com/dLv3ecjn](https://pastebin.com/dLv3ecjn)
+* [http://pastebin.com/tYbuaJhE](http://pastebin.com/tYbuaJhE)
+* [http://pastebin.com/dLv3ecjn](http://pastebin.com/dLv3ecjn)
 
 
 # some commentary
