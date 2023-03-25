@@ -110,14 +110,15 @@ if __name__ == '__main__':
 
 So, the above was presented without (much) comment. It represented a very simple question/response from me to chatgpt (using [chat-gpt.com](http://chat-gpt.com)). The intention is to show what the very near future of a conventional "tech interview" might look like in our collectively brave new world.
 
-The two questions asked were:
+The two questions asked to ChatGPT were:
 
-1. Can you write me code to validate whether a list of binary tree nodes forms exactly one valid tree.
+1. Can you write me code to validate whether a list of binary tree nodes forms exactly one valid tree?
 2. Can you write a unit test to test the code you just wrote?
 
 Actual pastebin of the interchange:
-* https://pastebin.com/tYbuaJhE
-* https://pastebin.com/dLv3ecjn
+
+* [https://pastebin.com/tYbuaJhE](https://pastebin.com/tYbuaJhE)
+* [https://pastebin.com/dLv3ecjn](https://pastebin.com/dLv3ecjn)
 
 
 # some commentary
